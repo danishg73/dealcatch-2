@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_login"
+            android:icon="@drawable/ic_user"
+            android:title="@string/Login" />
+        <item
+            android:id="@+id/nav_fav"
+            android:icon="@drawable/ic_fav_yes"
+            android:title="@string/Favourites" />
+        <item
+            android:id="@+id/nav_admin"
+            android:icon="@drawable/ic_user"
+            android:visible="false"
+            android:title="@string/admin" />
+
+
+        <item
+            android:id="@+id/nav_imprint"
+            android:icon="@drawable/ic_imprint"
+            android:title="@string/Imprint" />
+        <item
+            android:id="@+id/nav_data_protection"
+            android:icon="@drawable/ic_data_security"
+            android:title="@string/Data_Protection" />
+        <item
+            android:id="@+id/nav_condtion"
+            android:icon="@drawable/ic_agreement"
+            android:title="@string/Conditions" />
+        <item
+            android:id="@+id/nav_contact"
+            android:icon="@drawable/ic_contactus"
+            android:title="@string/contact_us" />
+        <item
+            android:id="@+id/nav_share"
+            android:icon="@drawable/ic_share2"
+            android:title="@string/share" />
+        <item
+            android:id="@+id/nav_rate"
+            android:icon="@drawable/ic_rate_us"
+            android:title="@string/Rate_us" />
+        <item
+            android:id="@+id/nav_setting"
+            android:icon="@drawable/ic_settings"
+            android:title="@string/action_settings" />
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/ic_logout"
+            android:title="@string/logout" />
+    </group>
+</menu>
